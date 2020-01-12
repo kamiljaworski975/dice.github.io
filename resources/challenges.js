@@ -35,7 +35,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             nextPlayer();
         }
         
-        /*
+        
         if (dice === 6 && lastDice === 6) {
             //Player looses score
             scores[activePlayer] = 0;
@@ -50,7 +50,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             nextPlayer();
         }
         lastDice = dice;
-        */
+        
     }    
 });
 
@@ -66,8 +66,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         var input = document.querySelector('.final-score').value;
         var winningScore;
         
-        // Undefined, 0, null or "" are COERCED to false
-        // Anything else is COERCED to true
+       
         if(input) {
             winningScore = input;
         } else {
