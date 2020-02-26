@@ -1,1 +1,1 @@
-# dice.github.io
+https://kamiljaworski975.github.io/dice.github.io/
